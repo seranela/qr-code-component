@@ -5,7 +5,7 @@
   /* Corrected to meet WCAG-AA normal text contrast ratio */
   --color-gray-blue-corrected: hsl(217, 15%, 47%);
   --color-dark-blue: hsl(218, 44%, 22%);
-  --font-body: 15px 'Outfit', sans-serif;
+  --font-body: 'Outfit', sans-serif;
 }
 
 html {
@@ -23,7 +23,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font: 400 var(--font-body);
+  font-family: var(--font-body);
+  font-weight: 400;
   background-color: var(--color-light-gray);
   margin: 1.6rem;
   overflow: hidden;
